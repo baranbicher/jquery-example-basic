@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding-bottom: 250px;
+  background-color: burlywood;
+}
+h1,
+h2 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+.cerceve {
+  width: 1100px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+  border: 5px solid cornflowerblue;
+  padding: 20px;
+}
+.yazilar {
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  border: 1px solid black;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: burlywood;
+}
+
+.kutu {
+  height: 150px;
+  width: 150px;
+}
+.kutu1 {
+  background-color: red;
+  margin-bottom: 10px;
+}
+.kutu2 {
+  background-color: seagreen;
+}
+.butonlar {
+  margin-top: 10px;
+}
+.zaman {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.yuvarlak {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: crimson;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ekle {
+  border-radius: 20px;
+  border: 3px solid crimson;
+  color: brown;
+  background-color: cornflowerblue;
+}
